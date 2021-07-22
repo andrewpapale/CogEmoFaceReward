@@ -1,0 +1,10 @@
+#Subj:	111211
+#Run:	1
+#Age:	22
+#Gender:	male
+#22-Jul-2021
+Run	Trial	Func	Emotion	Mag	Prob	Score	EV	RT	Clock_Onset	ISI_Onset	Feedback_Onset	ITI_Onset	ITI_Ideal	Image
+1	1	DEV	scram	  75	4.505329e-01	  75	3.400955e+01	2132	8.008963e+00	1.015423e+01	1.021217e+01	1.109559e+01	1.000000e-01	scram_2.png
+1	2	DEV	scram	  78	7.083547e-01	   0	5.499191e+01	 727	1.121296e+01	1.195649e+01	1.199606e+01	1.289701e+01	7.100000e+00	scram_7.png
+1	3	DEV	scram	  74	5.128558e-01	   0	3.786956e+01	1702	2.000745e+01	2.172382e+01	2.176344e+01	2.267272e+01	4.100000e+00	scram_20.png
+1	4	DEV	scram	   0	   0	   0	   0	4022	2.677004e+01	3.080940e+01	3.086003e+01	3.174792e+01	1.000000e-01	scram_12.png

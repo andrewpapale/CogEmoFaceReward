@@ -1,0 +1,348 @@
+PTB-INFO: Installation of the PsychtoolboxKernelDriver is strongly recommended if you care about precise visual
+PTB-INFO: onset timestamping or timing. See 'help PsychtoolboxKernelDriver' for installation instructions.
+PTB-WARNING: ==================================================================================================================
+PTB-WARNING: DESKTOP COMPOSITOR IS ACTIVE! ALL FLIP STIMULUS ONSET TIMESTAMPS WILL BE VERY LIKELY UNRELIABLE AND LESS ACCURATE!
+PTB-WARNING: STIMULUS ONSET TIMING WILL BE UNRELIABLE AS WELL, AND GRAPHICS PERFORMANCE MAY BE REDUCED!
+PTB-WARNING: DO NOT USE THIS MODE FOR RUNNING REAL EXPERIMENT SESSIONS WITH ANY REQUIREMENTS FOR ACCURATE TIMING!
+PTB-WARNING: ==================================================================================================================
+
+WARNING: Couldn't compute a reliable estimate of monitor refresh interval! Trouble with VBL syncing?!?
+
+
+----- ! PTB - ERROR: SYNCHRONIZATION FAILURE ! -----
+
+One or more internal checks (see Warnings above) indicate that synchronization
+of Psychtoolbox to the vertical retrace (VBL) is not working on your setup.
+
+This will seriously impair proper stimulus presentation and stimulus presentation timing!
+Please read 'help SyncTrouble' for information about how to solve or work-around the problem.
+You can force Psychtoolbox to continue, despite the severe problems, by adding the command
+Screen('Preference', 'SkipSyncTests', 1); at the top of your script, if you really know what you are doing.
+
+
+PTB-WARNING: DrawText: Failed to load external drawtext plugin [dlopen(/Applications/Psychtoolbox/PsychBasic/PsychPlugins/libptbdrawtext_ftgl64.dylib, 10): Library not loaded: /Library/Frameworks/GStreamer.framework/Versions/1.0/lib/libfontconfig.1.dylib
+  Referenced from: /Applications/Psychtoolbox/PsychBasic/PsychPlugins/libptbdrawtext_ftgl64.dylib
+  Reason: image not found]. Retrying under generic name [libptbdrawtext_ftgl64.dylib].
+PTB-WARNING: DrawText: Failed to load external drawtext plugin 'libptbdrawtext_ftgl64.dylib' [dlopen(libptbdrawtext_ftgl64.dylib, 10): image not found]. Reverting to legacy text renderer.
+PTB-WARNING: DrawText: Functionality of Screen('DrawText') and Screen('TextBounds') may be limited and text quality may be impaired.
+PTB-WARNING: DrawText: Type 'help DrawTextPlugin' at the command prompt to receive instructions for troubleshooting.
+
+
+trgrtime =
+
+   5.3155e+05
+
+pulse flip: 531545.73466
+fix flip: 531545.75784
+pretrialLength was: 7.99530
+DEV: ev=34.01; Mag=75.00; Freq: 0.45; rand: 0.10; inc: 75; pts- block: 75; total: 75
+RT is: 2132.00
+
+1: scram_2.png
+8.00 in, expected, obs, diff
+clock	2.1449	2.1449	0.00
+ISI	0.0500	0.0452	-4.80
+receipt	0.9000	0.9008	0.78
+ITI	0.1000	0.0995	-0.53
+end	3.1949	3.1908	-4.06
+DEV: ev=54.99; Mag=78.00; Freq: 0.71; rand: 0.94; inc: 0; pts- block: 75; total: 75
+RT is: 727.00
+
+2: scram_7.png
+11.21 in, expected, obs, diff
+clock	0.7352	0.7352	0.00
+ISI	0.0500	0.0447	-5.34
+receipt	0.9000	0.9023	2.30
+ITI	7.1000	7.0985	-1.49
+end	8.7852	8.7810	-4.26
+DEV: ev=37.87; Mag=74.00; Freq: 0.51; rand: 0.58; inc: 0; pts- block: 75; total: 75
+RT is: 1702.00
+
+3: scram_20.png
+19.99 in, expected, obs, diff
+clock	1.7191	1.7191	0.00
+ISI	0.0500	0.0444	-5.60
+receipt	0.9000	0.9121	12.09
+ITI	4.1000	4.0951	-4.86
+end	6.7691	6.7708	1.70
+DEV: ev=0.00; Mag=0.00; Freq: 0.00; rand: 0.23; inc: 0; pts- block: 75; total: 75
+RT is: 4022.00
+
+4: scram_12.png
+26.77 in, expected, obs, diff
+clock	4.0273	4.0273	0.00
+ISI	0.0500	0.0432	-6.78
+receipt	0.9000	0.9014	1.41
+ITI	0.1000	0.0996	-0.39
+end	5.0773	5.0716	-5.68
+Quit on trial 5
+Quit on trial 5
+Quit on trial 5
+Quit on trial 5
+Quit on trial 5
+Quit on trial 5
+Quit on trial 5
+Quit on trial 5
+Quit on trial 5
+Quit on trial 5
+Quit on trial 5
+Quit on trial 5
+Quit on trial 5
+Quit on trial 5
+Quit on trial 5
+Quit on trial 5
+Quit on trial 5
+Quit on trial 5
+Quit on trial 5
+Quit on trial 5
+Quit on trial 5
+Quit on trial 5
+Quit on trial 5
+Quit on trial 5
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock/waitForResponse', '/Users/andypapale/bpd clock/runBPDClock.m', 707)" style="font-weight:bold">runBPDClock/waitForResponse</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',707,0)">line 707</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock/msgAndCloseEverything', '/Users/andypapale/bpd clock/runBPDClock.m', 552)" style="font-weight:bold">runBPDClock/msgAndCloseEverything</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',552,0)">line 552</a>)
+        fprintf('%s\n',message)
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock/waitForResponse', '/Users/andypapale/bpd clock/runBPDClock.m', 702)" style="font-weight:bold">runBPDClock/waitForResponse</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',702,0)">line 702</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock/msgAndCloseEverything', '/Users/andypapale/bpd clock/runBPDClock.m', 552)" style="font-weight:bold">runBPDClock/msgAndCloseEverything</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',552,0)">line 552</a>)
+        fprintf('%s\n',message)
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock/waitForResponse', '/Users/andypapale/bpd clock/runBPDClock.m', 702)" style="font-weight:bold">runBPDClock/waitForResponse</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',702,0)">line 702</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock/msgAndCloseEverything', '/Users/andypapale/bpd clock/runBPDClock.m', 552)" style="font-weight:bold">runBPDClock/msgAndCloseEverything</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',552,0)">line 552</a>)
+        fprintf('%s\n',message)
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock/waitForResponse', '/Users/andypapale/bpd clock/runBPDClock.m', 702)" style="font-weight:bold">runBPDClock/waitForResponse</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',702,0)">line 702</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock/msgAndCloseEverything', '/Users/andypapale/bpd clock/runBPDClock.m', 552)" style="font-weight:bold">runBPDClock/msgAndCloseEverything</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',552,0)">line 552</a>)
+        fprintf('%s\n',message)
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock/waitForResponse', '/Users/andypapale/bpd clock/runBPDClock.m', 702)" style="font-weight:bold">runBPDClock/waitForResponse</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',702,0)">line 702</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock/msgAndCloseEverything', '/Users/andypapale/bpd clock/runBPDClock.m', 552)" style="font-weight:bold">runBPDClock/msgAndCloseEverything</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',552,0)">line 552</a>)
+        fprintf('%s\n',message)
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock/waitForResponse', '/Users/andypapale/bpd clock/runBPDClock.m', 702)" style="font-weight:bold">runBPDClock/waitForResponse</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',702,0)">line 702</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock/msgAndCloseEverything', '/Users/andypapale/bpd clock/runBPDClock.m', 552)" style="font-weight:bold">runBPDClock/msgAndCloseEverything</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',552,0)">line 552</a>)
+        fprintf('%s\n',message)
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock/waitForResponse', '/Users/andypapale/bpd clock/runBPDClock.m', 702)" style="font-weight:bold">runBPDClock/waitForResponse</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',702,0)">line 702</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock/msgAndCloseEverything', '/Users/andypapale/bpd clock/runBPDClock.m', 552)" style="font-weight:bold">runBPDClock/msgAndCloseEverything</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',552,0)">line 552</a>)
+        fprintf('%s\n',message)
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock/waitForResponse', '/Users/andypapale/bpd clock/runBPDClock.m', 702)" style="font-weight:bold">runBPDClock/waitForResponse</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',702,0)">line 702</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock/msgAndCloseEverything', '/Users/andypapale/bpd clock/runBPDClock.m', 552)" style="font-weight:bold">runBPDClock/msgAndCloseEverything</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',552,0)">line 552</a>)
+        fprintf('%s\n',message)
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock/waitForResponse', '/Users/andypapale/bpd clock/runBPDClock.m', 702)" style="font-weight:bold">runBPDClock/waitForResponse</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',702,0)">line 702</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock/msgAndCloseEverything', '/Users/andypapale/bpd clock/runBPDClock.m', 552)" style="font-weight:bold">runBPDClock/msgAndCloseEverything</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',552,0)">line 552</a>)
+        fprintf('%s\n',message)
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock/waitForResponse', '/Users/andypapale/bpd clock/runBPDClock.m', 702)" style="font-weight:bold">runBPDClock/waitForResponse</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',702,0)">line 702</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock/msgAndCloseEverything', '/Users/andypapale/bpd clock/runBPDClock.m', 552)" style="font-weight:bold">runBPDClock/msgAndCloseEverything</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',552,0)">line 552</a>)
+        fprintf('%s\n',message)
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock/waitForResponse', '/Users/andypapale/bpd clock/runBPDClock.m', 702)" style="font-weight:bold">runBPDClock/waitForResponse</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',702,0)">line 702</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock/msgAndCloseEverything', '/Users/andypapale/bpd clock/runBPDClock.m', 552)" style="font-weight:bold">runBPDClock/msgAndCloseEverything</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',552,0)">line 552</a>)
+        fprintf('%s\n',message)
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock/waitForResponse', '/Users/andypapale/bpd clock/runBPDClock.m', 702)" style="font-weight:bold">runBPDClock/waitForResponse</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',702,0)">line 702</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock/msgAndCloseEverything', '/Users/andypapale/bpd clock/runBPDClock.m', 552)" style="font-weight:bold">runBPDClock/msgAndCloseEverything</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',552,0)">line 552</a>)
+        fprintf('%s\n',message)
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock/waitForResponse', '/Users/andypapale/bpd clock/runBPDClock.m', 702)" style="font-weight:bold">runBPDClock/waitForResponse</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',702,0)">line 702</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock/msgAndCloseEverything', '/Users/andypapale/bpd clock/runBPDClock.m', 552)" style="font-weight:bold">runBPDClock/msgAndCloseEverything</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',552,0)">line 552</a>)
+        fprintf('%s\n',message)
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock/waitForResponse', '/Users/andypapale/bpd clock/runBPDClock.m', 702)" style="font-weight:bold">runBPDClock/waitForResponse</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',702,0)">line 702</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock/msgAndCloseEverything', '/Users/andypapale/bpd clock/runBPDClock.m', 552)" style="font-weight:bold">runBPDClock/msgAndCloseEverything</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',552,0)">line 552</a>)
+        fprintf('%s\n',message)
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock/waitForResponse', '/Users/andypapale/bpd clock/runBPDClock.m', 702)" style="font-weight:bold">runBPDClock/waitForResponse</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',702,0)">line 702</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock/msgAndCloseEverything', '/Users/andypapale/bpd clock/runBPDClock.m', 552)" style="font-weight:bold">runBPDClock/msgAndCloseEverything</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',552,0)">line 552</a>)
+        fprintf('%s\n',message)
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock/waitForResponse', '/Users/andypapale/bpd clock/runBPDClock.m', 702)" style="font-weight:bold">runBPDClock/waitForResponse</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',702,0)">line 702</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock/msgAndCloseEverything', '/Users/andypapale/bpd clock/runBPDClock.m', 552)" style="font-weight:bold">runBPDClock/msgAndCloseEverything</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',552,0)">line 552</a>)
+        fprintf('%s\n',message)
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock/waitForResponse', '/Users/andypapale/bpd clock/runBPDClock.m', 702)" style="font-weight:bold">runBPDClock/waitForResponse</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',702,0)">line 702</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock/msgAndCloseEverything', '/Users/andypapale/bpd clock/runBPDClock.m', 552)" style="font-weight:bold">runBPDClock/msgAndCloseEverything</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',552,0)">line 552</a>)
+        fprintf('%s\n',message)
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock/waitForResponse', '/Users/andypapale/bpd clock/runBPDClock.m', 702)" style="font-weight:bold">runBPDClock/waitForResponse</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',702,0)">line 702</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock/msgAndCloseEverything', '/Users/andypapale/bpd clock/runBPDClock.m', 552)" style="font-weight:bold">runBPDClock/msgAndCloseEverything</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',552,0)">line 552</a>)
+        fprintf('%s\n',message)
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock/waitForResponse', '/Users/andypapale/bpd clock/runBPDClock.m', 702)" style="font-weight:bold">runBPDClock/waitForResponse</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',702,0)">line 702</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock/msgAndCloseEverything', '/Users/andypapale/bpd clock/runBPDClock.m', 552)" style="font-weight:bold">runBPDClock/msgAndCloseEverything</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',552,0)">line 552</a>)
+        fprintf('%s\n',message)
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock/waitForResponse', '/Users/andypapale/bpd clock/runBPDClock.m', 702)" style="font-weight:bold">runBPDClock/waitForResponse</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',702,0)">line 702</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock/msgAndCloseEverything', '/Users/andypapale/bpd clock/runBPDClock.m', 552)" style="font-weight:bold">runBPDClock/msgAndCloseEverything</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',552,0)">line 552</a>)
+        fprintf('%s\n',message)
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock/waitForResponse', '/Users/andypapale/bpd clock/runBPDClock.m', 702)" style="font-weight:bold">runBPDClock/waitForResponse</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',702,0)">line 702</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock/msgAndCloseEverything', '/Users/andypapale/bpd clock/runBPDClock.m', 552)" style="font-weight:bold">runBPDClock/msgAndCloseEverything</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',552,0)">line 552</a>)
+        fprintf('%s\n',message)
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock/waitForResponse', '/Users/andypapale/bpd clock/runBPDClock.m', 702)" style="font-weight:bold">runBPDClock/waitForResponse</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',702,0)">line 702</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock/msgAndCloseEverything', '/Users/andypapale/bpd clock/runBPDClock.m', 552)" style="font-weight:bold">runBPDClock/msgAndCloseEverything</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',552,0)">line 552</a>)
+        fprintf('%s\n',message)
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock/waitForResponse', '/Users/andypapale/bpd clock/runBPDClock.m', 702)" style="font-weight:bold">runBPDClock/waitForResponse</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',702,0)">line 702</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock/msgAndCloseEverything', '/Users/andypapale/bpd clock/runBPDClock.m', 552)" style="font-weight:bold">runBPDClock/msgAndCloseEverything</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',552,0)">line 552</a>)
+        fprintf('%s\n',message)
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock/waitForResponse', '/Users/andypapale/bpd clock/runBPDClock.m', 702)" style="font-weight:bold">runBPDClock/waitForResponse</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',702,0)">line 702</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock/msgAndCloseEverything', '/Users/andypapale/bpd clock/runBPDClock.m', 552)" style="font-weight:bold">runBPDClock/msgAndCloseEverything</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',552,0)">line 552</a>)
+        fprintf('%s\n',message)
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock/faceWithTimer', '/Users/andypapale/bpd clock/runBPDClock.m', 640)" style="font-weight:bold">runBPDClock/faceWithTimer</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',640,0)">line 640</a>)
+            if keyIsDown
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock', '/Users/andypapale/bpd clock/runBPDClock.m', 365)" style="font-weight:bold">runBPDClock</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',365,0)">line 365</a>)
+
+} 
+sca
+runBPDClock
+Enter the subject ID number: 111112
+Please enter the subject ID number again:   111121
+Enter the subject ID number: {Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('BPD_getSubjInfo', '/Users/andypapale/bpd clock/BPD_getSubjInfo.m', 23)" style="font-weight:bold">BPD_getSubjInfo</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/BPD_getSubjInfo.m',23,0)">line 23</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock', '/Users/andypapale/bpd clock/runBPDClock.m', 97)" style="font-weight:bold">runBPDClock</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',97,0)">line 97</a>)
+[order, runTotals, filename] = BPD_getSubjInfo('fMRIEmoClock');
+} 
+runBPDClock
+Enter the subject ID number: 111212
+Please enter the subject ID number again:   111221
+[Warning: Subject ID did not match!] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('BPD_getSubjInfo', '/Users/andypapale/bpd clock/BPD_getSubjInfo.m', 40)" style="font-weight:bold">BPD_getSubjInfo</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/BPD_getSubjInfo.m',40,0)">line 40</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock', '/Users/andypapale/bpd clock/runBPDClock.m', 97)" style="font-weight:bold">runBPDClock</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',97,0)">line 97</a>)] 
+Enter the subject ID number: {Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('BPD_getSubjInfo', '/Users/andypapale/bpd clock/BPD_getSubjInfo.m', 23)" style="font-weight:bold">BPD_getSubjInfo</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/BPD_getSubjInfo.m',23,0)">line 23</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock', '/Users/andypapale/bpd clock/runBPDClock.m', 97)" style="font-weight:bold">runBPDClock</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',97,0)">line 97</a>)
+[order, runTotals, filename] = BPD_getSubjInfo('fMRIEmoClock');
+} 
+runBPDClock
+Enter the subject ID number: 111212
+Please enter the subject ID number again:   111211
+[Warning: Subject IDs did not match!] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('BPD_getSubjInfo', '/Users/andypapale/bpd clock/BPD_getSubjInfo.m', 40)" style="font-weight:bold">BPD_getSubjInfo</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/BPD_getSubjInfo.m',40,0)">line 40</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock', '/Users/andypapale/bpd clock/runBPDClock.m', 97)" style="font-weight:bold">runBPDClock</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',97,0)">line 97</a>)] 
+Enter the subject ID number: 111212
+Please enter the subject ID number again:   111212
+[Warning: Subject IDs did not match!] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('BPD_getSubjInfo', '/Users/andypapale/bpd clock/BPD_getSubjInfo.m', 40)" style="font-weight:bold">BPD_getSubjInfo</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/BPD_getSubjInfo.m',40,0)">line 40</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock', '/Users/andypapale/bpd clock/runBPDClock.m', 97)" style="font-weight:bold">runBPDClock</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',97,0)">line 97</a>)] 
+Enter the subject ID number: 111111
+Please enter the subject ID number again:   111111
+[Warning: Subject IDs did not match!] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('BPD_getSubjInfo', '/Users/andypapale/bpd clock/BPD_getSubjInfo.m', 40)" style="font-weight:bold">BPD_getSubjInfo</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/BPD_getSubjInfo.m',40,0)">line 40</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock', '/Users/andypapale/bpd clock/runBPDClock.m', 97)" style="font-weight:bold">runBPDClock</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',97,0)">line 97</a>)] 
+Enter the subject ID number: {Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('BPD_getSubjInfo', '/Users/andypapale/bpd clock/BPD_getSubjInfo.m', 23)" style="font-weight:bold">BPD_getSubjInfo</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/BPD_getSubjInfo.m',23,0)">line 23</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock', '/Users/andypapale/bpd clock/runBPDClock.m', 97)" style="font-weight:bold">runBPDClock</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',97,0)">line 97</a>)
+[order, runTotals, filename] = BPD_getSubjInfo('fMRIEmoClock');
+} 
+runBPDClock
+Enter the subject ID number: 111212
+Please enter the subject ID number again:   111212
+<a href="matlab: opentoline('/Users/andypapale/bpd clock/BPD_getSubjInfo.m',37,1)">37  </a>    if strcmpi(sub1,subject.subj_id)
+strcmpi(sub1,subject.subj_id)
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+strcmp(sub1,subject.subj_id)
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+sub1
+
+sub1 =
+
+      111212
+
+sub1==subject.subj_id
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   1
+
+if system_dependent('IsDebugMode')==1, dbquit all; end
+runBPDClock
+Enter the subject ID number: 1112121
+Please enter the subject ID number again:   1112122
+[Warning: Subject IDs did not match!] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('BPD_getSubjInfo', '/Users/andypapale/bpd clock/BPD_getSubjInfo.m', 40)" style="font-weight:bold">BPD_getSubjInfo</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/BPD_getSubjInfo.m',40,0)">line 40</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock', '/Users/andypapale/bpd clock/runBPDClock.m', 97)" style="font-weight:bold">runBPDClock</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',97,0)">line 97</a>)] 
+Enter the subject ID number: 1112121
+Please enter the subject ID number again:   1112121
+Enter the session number: 1
+Enter the subject group number: 1
+Reading design from FaceFMRIOrder_2_blockTotal.csv
+Enter the subject's age: 22
+Enter subject's gender (m or f): {Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('BPD_getSubjInfo', '/Users/andypapale/bpd clock/BPD_getSubjInfo.m', 236)" style="font-weight:bold">BPD_getSubjInfo</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/BPD_getSubjInfo.m',236,0)">line 236</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock', '/Users/andypapale/bpd clock/runBPDClock.m', 97)" style="font-weight:bold">runBPDClock</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',97,0)">line 97</a>)
+[order, runTotals, filename] = BPD_getSubjInfo('fMRIEmoClock');
+} 

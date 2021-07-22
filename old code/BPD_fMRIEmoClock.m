@@ -18,7 +18,7 @@
 %
 
 
-function fMRIEmoClock
+function BPD_fMRIEmoClock
 %% fMRIEmoClock
 % adapted from CogEmoFaceReward (written by Will Foran 2012-10-05)
 %
@@ -88,7 +88,8 @@ preStartWait     = 8.0; %initial fixation
 % 4) runTotals (total points per run, clearing out old totals for re-run)
 % 5) order (cell array of behavior)
 
-[order, runTotals, filename] = getSubjInfo('fMRIEmoClock');
+%Reshape it
+[order, runTotals, filename] = BPD_getSubjInfo('fMRIEmoClock');
 
 %load ITI distribution for all runs.
 %NB: the .runITIs element is runs x trials in size (8 x 50)
@@ -290,7 +291,8 @@ try
     fprintf('pretrialLength was: %.5f\n', pretrialLength);
     
     %determine start and end trials based on block to be run
-    startTrial = (subject.run_num-1)*trialsPerBlock + 1;
+    %startTrial = (subject.run_num-1)*trialsPerBlock + 1;
+    startTrial = (subject.run_num-1)*trialsPerBlock + trialsPerBlock-52;
     endTrial = subject.run_num*trialsPerBlock;
     blockTrial = 1; %track the trial number within block
     
