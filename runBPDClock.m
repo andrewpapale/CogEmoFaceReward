@@ -466,13 +466,13 @@ catch
     Screen('CloseAll');
     Priority(0); %reset to normal priority
     psychrethrow(psychlasterror);
-    ListenChar(0);
+    %ListenChar(0);
     ShowCursor;
 end
 
 % close the screen
 Priority(0); %reset to normal priority
-ListenChar(0);
+%ListenChar(0);
 ShowCursor;
 sca
 
@@ -555,7 +555,7 @@ sca
         Screen('Close')
         Screen('CloseAll');
         Priority(0);
-        ListenChar(0);
+        %ListenChar(0);
         ShowCursor;
         sca
     end

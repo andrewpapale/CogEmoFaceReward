@@ -346,3 +346,101 @@ Enter subject's gender (m or f): {Operation terminated by user during <a href="
 In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBPDClock', '/Users/andypapale/bpd clock/runBPDClock.m', 97)" style="font-weight:bold">runBPDClock</a> (<a href="matlab: opentoline('/Users/andypapale/bpd clock/runBPDClock.m',97,0)">line 97</a>)
 [order, runTotals, filename] = BPD_getSubjInfo('fMRIEmoClock');
 } 
+runSuppleClock
+{Error:<a href="matlab: opentoline('/Users/andypapale/explore_clock/runSuppleClock.m',580,30)">File: runSuppleClock.m Line: 580 Column: 30</a>
+Identifier 'inc' is not a function or a shared variable. To share 'inc' with a nested function, initialize it in the current scope. For more
+information, see <a href="matlab: helpview([docroot '/techdoc/matlab_prog/matlab_prog.map'],'nested_functions_scope')">Sharing Variables Between Parent and Nested Functions</a>.
+} 
+opentoline('/Users/andypapale/explore_clock/runSuppleClock.m',580,30)
+runSuppleClock
+{Error:<a href="matlab: opentoline('/Users/andypapale/explore_clock/runSuppleClock.m',580,34)">File: runSuppleClock.m Line: 580 Column: 34</a>
+Identifier 'ev' is not a function or a shared variable. To share 'ev' with a nested function, initialize it in the current scope. For more
+information, see <a href="matlab: helpview([docroot '/techdoc/matlab_prog/matlab_prog.map'],'nested_functions_scope')">Sharing Variables Between Parent and Nested Functions</a>.
+} 
+runSuppleClock
+{Error:<a href="matlab: opentoline('/Users/andypapale/explore_clock/runSuppleClock.m',580,17)">File: runSuppleClock.m Line: 580 Column: 17</a>
+Identifier 'F_Mag' is not a function or a shared variable. To share 'F_Mag' with a nested function, initialize it in the current scope. For more
+information, see <a href="matlab: helpview([docroot '/techdoc/matlab_prog/matlab_prog.map'],'nested_functions_scope')">Sharing Variables Between Parent and Nested Functions</a>.
+} 
+runSuppleClock
+{Error:<a href="matlab: opentoline('/Users/andypapale/explore_clock/runSuppleClock.m',580,23)">File: runSuppleClock.m Line: 580 Column: 23</a>
+Identifier 'F_Freq' is not a function or a shared variable. To share 'F_Freq' with a nested function, initialize it in the current scope. For more
+information, see <a href="matlab: helpview([docroot '/techdoc/matlab_prog/matlab_prog.map'],'nested_functions_scope')">Sharing Variables Between Parent and Nested Functions</a>.
+} 
+runSuppleClock
+Enter the subject ID number: 111212
+Enter the subject group number: {Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('getSubjInfoSupp', '/Users/andypapale/explore_clock/getSubjInfoSupp.m', 33)" style="font-weight:bold">getSubjInfoSupp</a> (<a href="matlab: opentoline('/Users/andypapale/explore_clock/getSubjInfoSupp.m',33,0)">line 33</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runSuppleClock', '/Users/andypapale/explore_clock/runSuppleClock.m', 109)" style="font-weight:bold">runSuppleClock</a> (<a href="matlab: opentoline('/Users/andypapale/explore_clock/runSuppleClock.m',109,0)">line 109</a>)
+[order, runTotals, filename] = getSubjInfoSupp('fMRIEmoClockSupplement');
+} 
+runSuppleClock
+Enter the subject ID number: 111212
+Please enter the subject ID number again:   111211
+[Warning: Subject IDs must match!] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('getSubjInfoSupp', '/Users/andypapale/explore_clock/getSubjInfoSupp.m', 40)" style="font-weight:bold">getSubjInfoSupp</a> (<a href="matlab: opentoline('/Users/andypapale/explore_clock/getSubjInfoSupp.m',40,0)">line 40</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runSuppleClock', '/Users/andypapale/explore_clock/runSuppleClock.m', 109)" style="font-weight:bold">runSuppleClock</a> (<a href="matlab: opentoline('/Users/andypapale/explore_clock/runSuppleClock.m',109,0)">line 109</a>)] 
+Enter the subject ID number: 111212
+Please enter the subject ID number again:   111212
+Enter the subject group number: 1
+Enter the session number: 1
+#Subj:	111212
+#Session:	1
+#Group:	1
+#Task Version:	rev
+#Reversal:	0
+If the info is correct hit enter to continue
+Otherwise hit ctrl+c to exit 
+[Warning: Unable to write to Excel format, attempting to write file to CSV format.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xlswrite', '/Applications/MATLAB_R2021a.app/toolbox/matlab/iofun/xlswrite.m', 179)" style="font-weight:bold">xlswrite</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2021a.app/toolbox/matlab/iofun/xlswrite.m',179,0)">line 179</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('getSubjInfoSupp', '/Users/andypapale/explore_clock/getSubjInfoSupp.m', 213)" style="font-weight:bold">getSubjInfoSupp</a> (<a href="matlab: opentoline('/Users/andypapale/explore_clock/getSubjInfoSupp.m',213,0)">line 213</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runSuppleClock', '/Users/andypapale/explore_clock/runSuppleClock.m', 109)" style="font-weight:bold">runSuppleClock</a> (<a href="matlab: opentoline('/Users/andypapale/explore_clock/runSuppleClock.m',109,0)">line 109</a>)] 
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xlswrite', '/Applications/MATLAB_R2021a.app/toolbox/matlab/iofun/xlswrite.m', 192)" style="font-weight:bold">xlswrite</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2021a.app/toolbox/matlab/iofun/xlswrite.m',192,0)">line 192</a>)
+An error occurred while writing file to CSV format. To write to an Excel file, convert your data to a table and use writetable.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('getSubjInfoSupp', '/Users/andypapale/explore_clock/getSubjInfoSupp.m', 213)" style="font-weight:bold">getSubjInfoSupp</a> (<a href="matlab: opentoline('/Users/andypapale/explore_clock/getSubjInfoSupp.m',213,0)">line 213</a>)
+        xlswrite(fname,txt,xlrange);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runSuppleClock', '/Users/andypapale/explore_clock/runSuppleClock.m', 109)" style="font-weight:bold">runSuppleClock</a> (<a href="matlab: opentoline('/Users/andypapale/explore_clock/runSuppleClock.m',109,0)">line 109</a>)
+[order, runTotals, filename] = getSubjInfoSupp('fMRIEmoClockSupplement');
+
+Caused by:
+    Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dlmwrite', '/Applications/MATLAB_R2021a.app/toolbox/matlab/iofun/dlmwrite.m', 104)" style="font-weight:bold">dlmwrite</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2021a.app/toolbox/matlab/iofun/dlmwrite.m',104,0)">line 104</a>)
+    The input cell array cannot be converted to a matrix.
+} 
+opentoline('/Users/andypapale/explore_clock/getSubjInfoSupp.m',213,0)
+dbstop if error
+runSuppleClock
+Enter the subject ID number: 111111
+Please enter the subject ID number again:   111111
+Enter the subject group number: 1
+Enter the session number: 1
+#Subj:	111111
+#Session:	1
+#Group:	1
+#Task Version:	rev
+#Reversal:	0
+If the info is correct hit enter to continue
+Otherwise hit ctrl+c to exit 
+[Warning: Unable to write to Excel format, attempting to write file to CSV format.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xlswrite', '/Applications/MATLAB_R2021a.app/toolbox/matlab/iofun/xlswrite.m', 179)" style="font-weight:bold">xlswrite</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2021a.app/toolbox/matlab/iofun/xlswrite.m',179,0)">line 179</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('getSubjInfoSupp', '/Users/andypapale/explore_clock/getSubjInfoSupp.m', 213)" style="font-weight:bold">getSubjInfoSupp</a> (<a href="matlab: opentoline('/Users/andypapale/explore_clock/getSubjInfoSupp.m',213,0)">line 213</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runSuppleClock', '/Users/andypapale/explore_clock/runSuppleClock.m', 109)" style="font-weight:bold">runSuppleClock</a> (<a href="matlab: opentoline('/Users/andypapale/explore_clock/runSuppleClock.m',109,0)">line 109</a>)] 
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xlswrite', '/Applications/MATLAB_R2021a.app/toolbox/matlab/iofun/xlswrite.m', 192)" style="font-weight:bold">xlswrite</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2021a.app/toolbox/matlab/iofun/xlswrite.m',192,0)">line 192</a>)
+An error occurred while writing file to CSV format. To write to an Excel file, convert your data to a table and use writetable.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('getSubjInfoSupp', '/Users/andypapale/explore_clock/getSubjInfoSupp.m', 213)" style="font-weight:bold">getSubjInfoSupp</a> (<a href="matlab: opentoline('/Users/andypapale/explore_clock/getSubjInfoSupp.m',213,0)">line 213</a>)
+        xlswrite(fname,txt,xlrange);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runSuppleClock', '/Users/andypapale/explore_clock/runSuppleClock.m', 109)" style="font-weight:bold">runSuppleClock</a> (<a href="matlab: opentoline('/Users/andypapale/explore_clock/runSuppleClock.m',109,0)">line 109</a>)
+[order, runTotals, filename] = getSubjInfoSupp('fMRIEmoClockSupplement');
+
+Caused by:
+    Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dlmwrite', '/Applications/MATLAB_R2021a.app/toolbox/matlab/iofun/dlmwrite.m', 104)" style="font-weight:bold">dlmwrite</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2021a.app/toolbox/matlab/iofun/dlmwrite.m',104,0)">line 104</a>)
+    The input cell array cannot be converted to a matrix.
+} 
+<a href="matlab: opentoline('/Applications/MATLAB_R2021a.app/toolbox/matlab/iofun/xlswrite.m',192,1)">192 </a>            throw(exceptionNew);
+dbup
+In workspace belonging to <a href="matlab:matlab.internal.language.introspective.errorDocCallback('getSubjInfoSupp', '/Users/andypapale/explore_clock/getSubjInfoSupp.m', 213)" style="font-weight:bold">getSubjInfoSupp</a> (<a href="matlab: opentoline('/Users/andypapale/explore_clock/getSubjInfoSupp.m',213,0)">line 213</a>)
+if system_dependent('IsDebugMode')==1, dbquit all; end
