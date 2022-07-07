@@ -1,0 +1,96 @@
+saving to subjects/MEG_000000_20220707_tc.txt
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fprintf')" style="font-weight:bold">fprintf</a>
+Invalid file identifier. Use fopen to generate a valid file identifier.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('EEGClockTask', 'C:\Users\STIMULUS\Documents\GitHub\CogEmoFaceReward\MEGClockTask\EEGClockTask.m', 120)" style="font-weight:bold">EEGClockTask</a> (<a href="matlab: opentoline('C:\Users\STIMULUS\Documents\GitHub\CogEmoFaceReward\MEGClockTask\EEGClockTask.m',120,0)">line 120</a>)
+    fprintf(txtfid,'#Subj:\t%d\n', subject.subj_id);
+} 
+<a href="matlab: opentoline('C:\Users\STIMULUS\Documents\GitHub\CogEmoFaceReward\MEGClockTask\EEGClockTask.m',120,1)">120 </a>    fprintf(txtfid,'#Subj:\t%d\n', subject.subj_id);
+subject.txtfile
+
+ans =
+
+    'subjects/MEG_000000_20220707_tc.txt'
+
+dbquit
+EEGClockTask('000000',1)
+             DEBUG: 0
+              test: 0
+               MEG: 1
+           trigger: 1
+            USEDAQ: 1
+             sound: 0
+     totalSessions: 1
+          emofuncs: {8×1 cell}
+         stimtimes: [1×1 struct]
+          numfaces: 21
+    trialsPerBlock: 63
+          fixation: 1500
+            screen: [1280 1024]
+
+rundate: 20220707
+using old age: 22
+Subject is male
+
+subject = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+        subj_id: '000000'
+        run_num: 1
+       trialnum: 1
+          score: 0
+         timing: [1×505 struct]
+          order: {504×1 cell}
+       run_date: 20220707
+       filename: 'subjects/MEG_000000_20220707_tc'
+        matfile: 'subjects/MEG_000000_20220707_tc.mat'
+        txtfile: 'subjects/MEG_000000_20220707_tc.txt'
+     experiment: {1×6 cell}
+     blockTrial: [0 0 0 0 0 0 0 0]
+            age: 22
+         gender: 'male'
+    blockColors: [8×3 double]
+
+
+subject = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+        subj_id: '000000'
+        run_num: 1
+       trialnum: 1
+          score: 0
+         timing: [1×505 struct]
+          order: {504×1 cell}
+       run_date: 20220707
+       filename: 'subjects/MEG_000000_20220707_tc'
+        matfile: 'subjects/MEG_000000_20220707_tc.mat'
+        txtfile: 'subjects/MEG_000000_20220707_tc.txt'
+     experiment: {1×6 cell}
+     blockTrial: [0 0 0 0 0 0 0 0]
+            age: 22
+         gender: 'male'
+    blockColors: [8×3 double]
+
+
+subject = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+        subj_id: '000000'
+        run_num: 1
+       trialnum: 1
+          score: 0
+         timing: [1×505 struct]
+          order: {504×1 cell}
+       run_date: 20220707
+       filename: 'subjects/MEG_000000_20220707_tc'
+        matfile: 'subjects/MEG_000000_20220707_tc.mat'
+        txtfile: 'subjects/MEG_000000_20220707_tc.txt'
+     experiment: {1×6 cell}
+     blockTrial: [0 0 0 0 0 0 0 0]
+            age: 22
+         gender: 'male'
+    blockColors: [8×3 double]
+

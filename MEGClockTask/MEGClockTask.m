@@ -8,7 +8,7 @@
 
 function subject = MEGClockTask(sid,blk,varargin)
   clear -GLOBAL opts subject;
-  global opts subject;
+  global opts subject t_start F_Mag F_Freq ev inc;
   subject.subj_id=sid;
   subject.run_num=blk;
 

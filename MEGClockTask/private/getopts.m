@@ -7,8 +7,8 @@ function getopts(varargin)
   useMEG();
 
   %% Default scren size (MEG center)
-  opts.screen=[1280 1024];
-  
+  %opts.screen=[1280 1024];
+  opts.screen = [2560 1440];
   %% PARSE REST
   i=1;
   while(i<=length(varargin))

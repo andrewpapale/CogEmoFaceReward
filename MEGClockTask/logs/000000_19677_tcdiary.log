@@ -1,0 +1,42 @@
+saving to subjects/MEG_000000_20220707_tc.txt
+PTB-WARNING: Call to PsychAvSetMmMaxThreadCharacteristics() for Vista-MMCSS scheduling failed for threadhandle 00007FFA96B21F80. Setting thread priority to HIGHEST as a work-around...
+PTB-WARNING: Call to PsychAvSetMmMaxThreadCharacteristics() for Vista-MMCSS scheduling failed for threadhandle 00007FFA96B21F80. Setting thread priority to HIGHEST as a work-around...
+PTB-INFO: ==============================================================================================================================
+PTB-INFO: WINDOWS DWM DESKTOP COMPOSITOR IS ACTIVE. On this Windows-10 or later system, Psychtoolbox can no longer reliably detect if
+PTB-INFO: this will cause trouble for timing and integrity of visual stimuli or not. You might be just fine, or you could be in trouble.
+PTB-INFO: Use external measurement equipment and independent procedures to verify reliability of timing if you care about proper timing.
+PTB-INFO: ==============================================================================================================================
+NOT USING SOUND
+PTB-WARNING: Call to PsychAvSetMmMaxThreadCharacteristics() for Vista-MMCSS scheduling failed for threadhandle 00007FFA96B21F80. Setting thread priority to HIGHEST as a work-around...
+
+
+PTB-ERROR: Screen('Flip'); beamposition timestamping computed an *impossible stimulus onset value* of 19679.689138 secs, which would indicate that
+PTB-ERROR: stimulus onset happened *before* it was actually requested! (Earliest theoretically possible 19679.693309 secs).
+
+PTB-ERROR: Some more diagnostic values (only for experts): rawTimestamp = 19679.695502, scanline = 1318
+PTB-ERROR: Some more diagnostic values (only for experts): line_pre_swaprequest = 852, line_post_swaprequest = 872, time_post_swaprequest = 19679.693404
+PTB-ERROR: Some more diagnostic values (only for experts): preflip_vblcount = 0, preflip_vbltimestamp = 19679.689198
+PTB-ERROR: Some more diagnostic values (only for experts): postflip_vblcount = 0, postflip_vbltimestamp = -1.000000, vbltimestampquery_retrycount = 0
+
+PTB-ERROR: This error can be due to either of the following causes:
+PTB-ERROR: Very unlikely: Something is broken in your systems beamposition timestamping. I've disabled high precision
+PTB-ERROR: timestamping for now. Returned timestamps will be less robust and accurate.
+
+PTB-ERROR: The most likely cause would be that Synchronization of stimulus onset (buffer swap) to the
+PTB-ERROR: vertical blank interval VBL is not working properly, or swap completion signalling to PTB is broken.
+PTB-ERROR: Please run the script PerceptualVBLSyncTest to check this. With non-working sync to VBL, all stimulus timing
+PTB-ERROR: is futile. Also run OSXCompositorIdiocyTest on macOS. Also read 'help SyncTrouble' !
+<a href="matlab: opentoline('C:\Users\STIMULUS\Documents\GitHub\CogEmoFaceReward\MEGClockTask\private\sendTrigger.m',14,1)">14  </a>  write(COM,trigger,'int8')
+ShowCursor()
+
+ans =
+
+     0
+
+close all
+dbquit
+
+
+enableMouse()
+{Unrecognized function or variable 'enableMouse'.
+} 

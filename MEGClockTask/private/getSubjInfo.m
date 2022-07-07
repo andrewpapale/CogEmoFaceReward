@@ -14,7 +14,7 @@ function subject=getSubjInfo(taskname,subject,totalBlocks,trialsPerBlock,opts,bl
   %determine subject number
   %if .mat file exists for this subject, then likely a reload and continue
   %subject.subj_id = NaN;
-  while ~exist('subject','var') || ~ismember('subj_id', fields(subject)) ||  isnan(subject.subj_id)
+  while ~exist('subject','var') | ~ismember('subj_id', fields(subject)) |  isnan(subject.subj_id)
       idInput = str2double(input('Enter the subject ID number: ','s')); %force to be numeric
       if ~isnan(idInput)
           subject.subj_id = idInput;
@@ -45,7 +45,7 @@ function subject=getSubjInfo(taskname,subject,totalBlocks,trialsPerBlock,opts,bl
       if ~ exist(subject.matfile,'file')
           fprintf('%s exists, but (%s) does not!\n', subject.txtfile,subject.matfile)
           fprintf('moving %s to %s, start from top\n', subject.txtfile, backup)
-          movefile(subject.txtfile, backup);
+          %movefile(subject.txtfile, backup);
       else
           localVar = load(subject.matfile);
           

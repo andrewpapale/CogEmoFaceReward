@@ -1,0 +1,143 @@
+saving to subjects/MEG_000000_20220707_tc.txt
+PTB-WARNING: ==============================================================================================================================
+PTB-WARNING: WINDOWS DWM DESKTOP COMPOSITOR IS ACTIVE! ALL FLIP STIMULUS ONSET TIMESTAMPS WILL BE VERY LIKELY UNRELIABLE AND LESS ACCURATE!
+PTB-WARNING: STIMULUS ONSET TIMING WILL BE UNRELIABLE AS WELL, AND GRAPHICS PERFORMANCE MAY BE SEVERELY REDUCED! STIMULUS IMAGES MAY NOT
+PTB-WARNING: SHOW UP AT ALL! DO NOT USE THIS MODE FOR RUNNING REAL EXPERIMENT SESSIONS WITH ANY REQUIREMENTS FOR ACCURATE TIMING!
+PTB-WARNING: ==============================================================================================================================
+
+WARNING: Couldn't compute a reliable estimate of monitor refresh interval! Trouble with VBL syncing?!?
+
+
+----- ! PTB - ERROR: SYNCHRONIZATION FAILURE ! -----
+
+One or more internal checks (see Warnings above) indicate that synchronization
+of Psychtoolbox to the vertical retrace (VBL) is not working on your setup.
+
+This will seriously impair proper stimulus presentation and stimulus presentation timing!
+Please read 'help SyncTrouble' for information about how to solve or work-around the problem.
+You can force Psychtoolbox to continue, despite the severe problems, by adding the command
+Screen('Preference', 'SkipSyncTests', 1); at the top of your script, if you really know what you are doing.
+
+
+NOT USING SOUND
+
+
+PTB-ERROR: Screen('Flip'); beamposition timestamping computed an *impossible stimulus onset value* of 18384.564813 secs, which would indicate that
+PTB-ERROR: stimulus onset happened *before* it was actually requested! (Earliest theoretically possible 18384.568132 secs).
+
+PTB-ERROR: Some more diagnostic values (only for experts): rawTimestamp = 18384.570224, scanline = 1117
+PTB-ERROR: Some more diagnostic values (only for experts): line_pre_swaprequest = 672, line_post_swaprequest = 796, time_post_swaprequest = 18384.568717
+PTB-ERROR: Some more diagnostic values (only for experts): preflip_vblcount = 0, preflip_vbltimestamp = 18384.564880
+PTB-ERROR: Some more diagnostic values (only for experts): postflip_vblcount = 0, postflip_vbltimestamp = -1.000000, vbltimestampquery_retrycount = 0
+
+PTB-ERROR: This error can be due to either of the following causes:
+PTB-ERROR: Very unlikely: Something is broken in your systems beamposition timestamping. I've disabled high precision
+PTB-ERROR: timestamping for now. Returned timestamps will be less robust and accurate.
+
+PTB-ERROR: The most likely cause would be that Synchronization of stimulus onset (buffer swap) to the
+PTB-ERROR: vertical blank interval VBL is not working properly, or swap completion signalling to PTB is broken.
+PTB-ERROR: Please run the script PerceptualVBLSyncTest to check this. With non-working sync to VBL, all stimulus timing
+PTB-ERROR: is futile. Also run OSXCompositorIdiocyTest on macOS. Also read 'help SyncTrouble' !
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sendTrigger')" style="font-weight:bold">sendTrigger</a>
+Unrecognized field name "port".
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('EEGClockTask', 'C:\Users\STIMULUS\Documents\GitHub\CogEmoFaceReward\MEGClockTask\EEGClockTask.m', 339)" style="font-weight:bold">EEGClockTask</a> (<a href="matlab: opentoline('C:\Users\STIMULUS\Documents\GitHub\CogEmoFaceReward\MEGClockTask\EEGClockTask.m',339,0)">line 339</a>)
+        sendTrigger(COM4,trigger.(rew).(emo).face)
+} 
+<a href="matlab: opentoline('C:\Users\STIMULUS\Desktop\Psychtoolbox\PsychBasic\psychrethrow.m',17,1)">17  </a>  builtin('rethrow', msg);
+matlab.internal.language.introspective.errorDocCallback('sendTrigger')
+dbquit
+EEGClockTask('000000',1)
+             DEBUG: 0
+              test: 0
+               MEG: 1
+           trigger: 1
+            USEDAQ: 1
+             sound: 0
+     totalSessions: 1
+          emofuncs: {8×1 cell}
+         stimtimes: [1×1 struct]
+          numfaces: 21
+    trialsPerBlock: 63
+          fixation: 1500
+            screen: [1280 1024]
+
+rundate: 20220707
+subjects/MEG_000000_20220707_tc.txt exists, but (subjects/MEG_000000_20220707_tc.mat) does not!
+moving subjects/MEG_000000_20220707_tc.txt to subjects/MEG_000000_20220707_tc.txt.18425.3289.bak, start from top
+using old age: 22
+Subject is male
+1: 1/63
+2: 0/63
+3: 0/63
+4: 0/63
+5: 0/63
+6: 0/63
+7: 0/63
+8: 0/63
+Do you want to redo run 1 ? (y or n) 1
+Do you want to redo run 1 ? (y or n) 1
+Do you want to redo run 1 ? (y or n) y
+
+subject = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+        subj_id: '000000'
+        run_num: 1
+       trialnum: 1
+          score: 0
+         timing: [1×505 struct]
+          order: {504×1 cell}
+       run_date: 20220707
+       filename: 'subjects/MEG_000000_20220707_tc'
+        matfile: 'subjects/MEG_000000_20220707_tc.mat'
+        txtfile: 'subjects/MEG_000000_20220707_tc.txt'
+     experiment: {1×6 cell}
+     blockTrial: [1 0 0 0 0 0 0 0]
+            age: 22
+         gender: 'male'
+    blockColors: [8×3 double]
+
+
+subject = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+        subj_id: '000000'
+        run_num: 1
+       trialnum: 1
+          score: 0
+         timing: [1×505 struct]
+          order: {504×1 cell}
+       run_date: 20220707
+       filename: 'subjects/MEG_000000_20220707_tc'
+        matfile: 'subjects/MEG_000000_20220707_tc.mat'
+        txtfile: 'subjects/MEG_000000_20220707_tc.txt'
+     experiment: {1×6 cell}
+     blockTrial: [1 0 0 0 0 0 0 0]
+            age: 22
+         gender: 'male'
+    blockColors: [8×3 double]
+
+
+subject = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+        subj_id: '000000'
+        run_num: 1
+       trialnum: 1
+          score: 0
+         timing: [1×505 struct]
+          order: {504×1 cell}
+       run_date: 20220707
+       filename: 'subjects/MEG_000000_20220707_tc'
+        matfile: 'subjects/MEG_000000_20220707_tc.mat'
+        txtfile: 'subjects/MEG_000000_20220707_tc.txt'
+     experiment: {1×6 cell}
+     blockTrial: [1 0 0 0 0 0 0 0]
+            age: 22
+         gender: 'male'
+    blockColors: [8×3 double]
+

@@ -1,0 +1,147 @@
+saving to subjects/MEG_000000_20220707_tc.txt
+PTB-WARNING: ==============================================================================================================================
+PTB-WARNING: WINDOWS DWM DESKTOP COMPOSITOR IS ACTIVE! ALL FLIP STIMULUS ONSET TIMESTAMPS WILL BE VERY LIKELY UNRELIABLE AND LESS ACCURATE!
+PTB-WARNING: STIMULUS ONSET TIMING WILL BE UNRELIABLE AS WELL, AND GRAPHICS PERFORMANCE MAY BE SEVERELY REDUCED! STIMULUS IMAGES MAY NOT
+PTB-WARNING: SHOW UP AT ALL! DO NOT USE THIS MODE FOR RUNNING REAL EXPERIMENT SESSIONS WITH ANY REQUIREMENTS FOR ACCURATE TIMING!
+PTB-WARNING: ==============================================================================================================================
+
+WARNING: Couldn't compute a reliable estimate of monitor refresh interval! Trouble with VBL syncing?!?
+
+
+----- ! PTB - ERROR: SYNCHRONIZATION FAILURE ! -----
+
+One or more internal checks (see Warnings above) indicate that synchronization
+of Psychtoolbox to the vertical retrace (VBL) is not working on your setup.
+
+This will seriously impair proper stimulus presentation and stimulus presentation timing!
+Please read 'help SyncTrouble' for information about how to solve or work-around the problem.
+You can force Psychtoolbox to continue, despite the severe problems, by adding the command
+Screen('Preference', 'SkipSyncTests', 1); at the top of your script, if you really know what you are doing.
+
+
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('imread>get_full_filename')" style="font-weight:bold">imread>get_full_filename</a>
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('imread>get_full_filename')" style="font-weight:bold">imread>get_full_filename</a>
+File "faces/fear_1.png" does not exist.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('imread', 'C:\Program Files\MATLAB\R2022a\toolbox\matlab\imagesci\imread.m', 371)" style="font-weight:bold">imread</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2022a\toolbox\matlab\imagesci\imread.m',371,0)">line 371</a>)
+    fullname = get_full_filename(filename);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('EEGClockTask', 'C:\Users\STIMULUS\Documents\GitHub\CogEmoFaceReward\MEGClockTask\EEGClockTask.m', 200)" style="font-weight:bold">EEGClockTask</a> (<a href="matlab: opentoline('C:\Users\STIMULUS\Documents\GitHub\CogEmoFaceReward\MEGClockTask\EEGClockTask.m',200,0)">line 200</a>)
+            [imdata colormap alpha]=imread(stimfilename);
+} 
+<a href="matlab: opentoline('C:\Users\STIMULUS\Desktop\Psychtoolbox\PsychBasic\psychrethrow.m',17,1)">17  </a>  builtin('rethrow', msg);
+opentoline('C:\Users\STIMULUS\Documents\GitHub\CogEmoFaceReward\MEGClockTask\EEGClockTask.m',200,0)
+if system_dependent('IsDebugMode')==1, dbquit all; end
+EEGClockTask('000000',1)
+             DEBUG: 0
+              test: 0
+               MEG: 1
+           trigger: 1
+            USEDAQ: 1
+             sound: 0
+     totalSessions: 1
+          emofuncs: {8×1 cell}
+         stimtimes: [1×1 struct]
+          numfaces: 21
+    trialsPerBlock: 63
+          fixation: 1500
+            screen: [1280 1024]
+
+rundate: 20220707
+subjects/MEG_000000_20220707_tc.txt exists, but (subjects/MEG_000000_20220707_tc.mat) does not!
+moving subjects/MEG_000000_20220707_tc.txt to subjects/MEG_000000_20220707_tc.txt.18328.4433.bak, start from top
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('movefile')" style="font-weight:bold">movefile</a>
+Cannot read from source: C:\Users\STIMULUS\Documents\GitHub\CogEmoFaceReward\MEGClockTask\subjects\MEG_000000_20220707_tc.txt.
+Use the 'f' option to override.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('getSubjInfo', 'C:\Users\STIMULUS\Documents\GitHub\CogEmoFaceReward\MEGClockTask\private\getSubjInfo.m', 48)" style="font-weight:bold">getSubjInfo</a> (<a href="matlab: opentoline('C:\Users\STIMULUS\Documents\GitHub\CogEmoFaceReward\MEGClockTask\private\getSubjInfo.m',48,0)">line 48</a>)
+          movefile(subject.txtfile, backup);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('EEGClockTask', 'C:\Users\STIMULUS\Documents\GitHub\CogEmoFaceReward\MEGClockTask\EEGClockTask.m', 92)" style="font-weight:bold">EEGClockTask</a> (<a href="matlab: opentoline('C:\Users\STIMULUS\Documents\GitHub\CogEmoFaceReward\MEGClockTask\EEGClockTask.m',92,0)">line 92</a>)
+  subject=getSubjInfo('MEG',subject, totalnumblocks,opts.trialsPerBlock,opts,blk);
+} 
+<a href="matlab: opentoline('C:\Users\STIMULUS\Documents\GitHub\CogEmoFaceReward\MEGClockTask\private\getSubjInfo.m',48,1)">48  </a>          movefile(subject.txtfile, backup);
+if system_dependent('IsDebugMode')==1, dbquit all; end
+EEGClockTask('000000',1)
+             DEBUG: 0
+              test: 0
+               MEG: 1
+           trigger: 1
+            USEDAQ: 1
+             sound: 0
+     totalSessions: 1
+          emofuncs: {8×1 cell}
+         stimtimes: [1×1 struct]
+          numfaces: 21
+    trialsPerBlock: 63
+          fixation: 1500
+            screen: [1280 1024]
+
+rundate: 20220707
+subjects/MEG_000000_20220707_tc.txt exists, but (subjects/MEG_000000_20220707_tc.mat) does not!
+moving subjects/MEG_000000_20220707_tc.txt to subjects/MEG_000000_20220707_tc.txt.18379.2266.bak, start from top
+using old age: 22
+Subject is male
+
+subject = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+        subj_id: '000000'
+        run_num: 1
+       trialnum: 1
+          score: 0
+         timing: [1×505 struct]
+          order: {504×1 cell}
+       run_date: 20220707
+       filename: 'subjects/MEG_000000_20220707_tc'
+        matfile: 'subjects/MEG_000000_20220707_tc.mat'
+        txtfile: 'subjects/MEG_000000_20220707_tc.txt'
+     experiment: {1×6 cell}
+     blockTrial: [0 0 0 0 0 0 0 0]
+            age: 22
+         gender: 'male'
+    blockColors: [8×3 double]
+
+
+subject = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+        subj_id: '000000'
+        run_num: 1
+       trialnum: 1
+          score: 0
+         timing: [1×505 struct]
+          order: {504×1 cell}
+       run_date: 20220707
+       filename: 'subjects/MEG_000000_20220707_tc'
+        matfile: 'subjects/MEG_000000_20220707_tc.mat'
+        txtfile: 'subjects/MEG_000000_20220707_tc.txt'
+     experiment: {1×6 cell}
+     blockTrial: [0 0 0 0 0 0 0 0]
+            age: 22
+         gender: 'male'
+    blockColors: [8×3 double]
+
+
+subject = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+        subj_id: '000000'
+        run_num: 1
+       trialnum: 1
+          score: 0
+         timing: [1×505 struct]
+          order: {504×1 cell}
+       run_date: 20220707
+       filename: 'subjects/MEG_000000_20220707_tc'
+        matfile: 'subjects/MEG_000000_20220707_tc.mat'
+        txtfile: 'subjects/MEG_000000_20220707_tc.txt'
+     experiment: {1×6 cell}
+     blockTrial: [0 0 0 0 0 0 0 0]
+            age: 22
+         gender: 'male'
+    blockColors: [8×3 double]
+

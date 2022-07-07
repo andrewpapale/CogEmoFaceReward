@@ -1,0 +1,147 @@
+saving to subjects/MEG_000000_20220707_tc.txt
+PTB-WARNING: Call to PsychAvSetMmMaxThreadCharacteristics() for Vista-MMCSS scheduling failed for threadhandle 00007FFA96B21F80. Setting thread priority to HIGHEST as a work-around...
+PTB-WARNING: Call to PsychAvSetMmMaxThreadCharacteristics() for Vista-MMCSS scheduling failed for threadhandle 00007FFA96B21F80. Setting thread priority to HIGHEST as a work-around...
+PTB-WARNING: ==============================================================================================================================
+PTB-WARNING: WINDOWS DWM DESKTOP COMPOSITOR IS ACTIVE! ALL FLIP STIMULUS ONSET TIMESTAMPS WILL BE VERY LIKELY UNRELIABLE AND LESS ACCURATE!
+PTB-WARNING: STIMULUS ONSET TIMING WILL BE UNRELIABLE AS WELL, AND GRAPHICS PERFORMANCE MAY BE SEVERELY REDUCED! STIMULUS IMAGES MAY NOT
+PTB-WARNING: SHOW UP AT ALL! DO NOT USE THIS MODE FOR RUNNING REAL EXPERIMENT SESSIONS WITH ANY REQUIREMENTS FOR ACCURATE TIMING!
+PTB-WARNING: ==============================================================================================================================
+
+WARNING: Couldn't compute a reliable estimate of monitor refresh interval! Trouble with VBL syncing?!?
+
+
+----- ! PTB - ERROR: SYNCHRONIZATION FAILURE ! -----
+
+One or more internal checks (see Warnings above) indicate that synchronization
+of Psychtoolbox to the vertical retrace (VBL) is not working on your setup.
+
+This will seriously impair proper stimulus presentation and stimulus presentation timing!
+Please read 'help SyncTrouble' for information about how to solve or work-around the problem.
+You can force Psychtoolbox to continue, despite the severe problems, by adding the command
+Screen('Preference', 'SkipSyncTests', 1); at the top of your script, if you really know what you are doing.
+
+
+NOT USING SOUND
+PTB-WARNING: Call to PsychAvSetMmMaxThreadCharacteristics() for Vista-MMCSS scheduling failed for threadhandle 00007FFA96B21F80. Setting thread priority to HIGHEST as a work-around...
+
+
+PTB-ERROR: Screen('Flip'); beamposition timestamping computed an *impossible stimulus onset value* of 19618.189224 secs, which would indicate that
+PTB-ERROR: stimulus onset happened *before* it was actually requested! (Earliest theoretically possible 19618.194202 secs).
+
+PTB-ERROR: Some more diagnostic values (only for experts): rawTimestamp = 19618.195358, scanline = 1267
+PTB-ERROR: Some more diagnostic values (only for experts): line_pre_swaprequest = 1021, line_post_swaprequest = 1161, time_post_swaprequest = 19618.194870
+PTB-ERROR: Some more diagnostic values (only for experts): preflip_vblcount = 0, preflip_vbltimestamp = 19618.189262
+PTB-ERROR: Some more diagnostic values (only for experts): postflip_vblcount = 0, postflip_vbltimestamp = -1.000000, vbltimestampquery_retrycount = 0
+
+PTB-ERROR: This error can be due to either of the following causes:
+PTB-ERROR: Very unlikely: Something is broken in your systems beamposition timestamping. I've disabled high precision
+PTB-ERROR: timestamping for now. Returned timestamps will be less robust and accurate.
+
+PTB-ERROR: The most likely cause would be that Synchronization of stimulus onset (buffer swap) to the
+PTB-ERROR: vertical blank interval VBL is not working properly, or swap completion signalling to PTB is broken.
+PTB-ERROR: Please run the script PerceptualVBLSyncTest to check this. With non-working sync to VBL, all stimulus timing
+PTB-ERROR: is futile. Also run OSXCompositorIdiocyTest on macOS. Also read 'help SyncTrouble' !
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('EEGClockTask/waitForResponse')" style="font-weight:bold">EEGClockTask/waitForResponse</a>
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('EEGClockTask', 'C:\Users\STIMULUS\Documents\GitHub\CogEmoFaceReward\MEGClockTask\EEGClockTask.m', 275)" style="font-weight:bold">EEGClockTask</a> (<a href="matlab: opentoline('C:\Users\STIMULUS\Documents\GitHub\CogEmoFaceReward\MEGClockTask\EEGClockTask.m',275,0)">line 275</a>)
+             waitForResponse('space');
+} 
+   
+clear all
+EEGClockTask('000000',1)
+             DEBUG: 0
+              test: 0
+               MEG: 1
+           trigger: 1
+            USEDAQ: 1
+             sound: 0
+     totalSessions: 1
+          emofuncs: {8×1 cell}
+         stimtimes: [1×1 struct]
+          numfaces: 21
+    trialsPerBlock: 63
+          fixation: 1500
+            screen: [2560 1440]
+
+rundate: 20220707
+subjects/MEG_000000_20220707_tc.txt exists, but (subjects/MEG_000000_20220707_tc.mat) does not!
+moving subjects/MEG_000000_20220707_tc.txt to subjects/MEG_000000_20220707_tc.txt.19675.8392.bak, start from top
+generating ITI timing...
+generating ISI timing...
+generating non-repeat face emotion + reward function order...
+	1 scram  DEV
+	2  fear  IEV
+	3 scram CEVR
+	4 happy  IEV
+	5 scram  CEV
+	6  fear  DEV
+	7 scram  IEV
+	8 happy  DEV
+
+
+
+Enter the subject's age: 22
+Enter subject's gender (m or f): m
+Subject is male
+
+subject = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+       subj_id: '000000'
+       run_num: 1
+      trialnum: 1
+         score: 0
+        timing: [1×505 struct]
+         order: {504×1 cell}
+      run_date: 20220707
+      filename: 'subjects/MEG_000000_20220707_tc'
+       matfile: 'subjects/MEG_000000_20220707_tc.mat'
+       txtfile: 'subjects/MEG_000000_20220707_tc.txt'
+    experiment: {1×6 cell}
+    blockTrial: [0 0 0 0 0 0 0 0]
+           age: 22
+        gender: 'male'
+
+
+subject = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+       subj_id: '000000'
+       run_num: 1
+      trialnum: 1
+         score: 0
+        timing: [1×505 struct]
+         order: {504×1 cell}
+      run_date: 20220707
+      filename: 'subjects/MEG_000000_20220707_tc'
+       matfile: 'subjects/MEG_000000_20220707_tc.mat'
+       txtfile: 'subjects/MEG_000000_20220707_tc.txt'
+    experiment: {1×6 cell}
+    blockTrial: [0 0 0 0 0 0 0 0]
+           age: 22
+        gender: 'male'
+
+
+subject = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+        subj_id: '000000'
+        run_num: 1
+       trialnum: 1
+          score: 0
+         timing: [1×505 struct]
+          order: {504×1 cell}
+       run_date: 20220707
+       filename: 'subjects/MEG_000000_20220707_tc'
+        matfile: 'subjects/MEG_000000_20220707_tc.mat'
+        txtfile: 'subjects/MEG_000000_20220707_tc.txt'
+     experiment: {1×6 cell}
+     blockTrial: [0 0 0 0 0 0 0 0]
+            age: 22
+         gender: 'male'
+    blockColors: [8×3 double]
+

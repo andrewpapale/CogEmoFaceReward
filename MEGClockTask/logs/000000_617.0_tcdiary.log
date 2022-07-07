@@ -1,0 +1,21 @@
+saving to subjects/MEG_000000_20220707_tc.txt
+PTB-INFO: ==============================================================================================================================
+PTB-INFO: WINDOWS DWM DESKTOP COMPOSITOR IS ACTIVE. On this Windows-10 or later system, Psychtoolbox can no longer reliably detect if
+PTB-INFO: this will cause trouble for timing and integrity of visual stimuli or not. You might be just fine, or you could be in trouble.
+PTB-INFO: Use external measurement equipment and independent procedures to verify reliability of timing if you care about proper timing.
+PTB-INFO: ==============================================================================================================================
+NOT USING SOUND
+1  CEV:: ev= 35.48; Mag= 47.00; Freq: 0.76; rand: 0.85; inc:   0; pts:: block:   0; total:     0
+2  CEV:: ev= 34.74; Mag= 46.00; Freq: 0.75; rand: 0.36; inc:  46; pts:: block:  46; total:    46
+3  CEV:: ev= 36.63; Mag= 197.00; Freq: 0.19; rand: 0.59; inc:   0; pts:: block:  46; total:    46
+4  CEV:: ev= 37.00; Mag= 199.00; Freq: 0.19; rand: 0.04; inc:   0; pts:: block:  46; total:    46
+5  CEV:: ev= 36.81; Mag= 198.00; Freq: 0.19; rand: 0.55; inc:   0; pts:: block:  46; total:    46
+6  CEV:: ev= 36.26; Mag= 195.00; Freq: 0.19; rand: 0.21; inc:   0; pts:: block:  46; total:    46
+7  CEV:: ev= 37.56; Mag= 202.00; Freq: 0.19; rand: 0.63; inc:   0; pts:: block:  46; total:    46
+8  CEV:: ev= 37.56; Mag= 202.00; Freq: 0.19; rand: 0.02; inc:   0; pts:: block:  46; total:    46
+9  CEV:: ev= 36.07; Mag= 194.00; Freq: 0.19; rand: 0.40; inc:   0; pts:: block:  46; total:    46
+10  CEV:: ev= 36.44; Mag= 196.00; Freq: 0.19; rand: 0.59; inc:   0; pts:: block:  46; total:    46
+11  CEV:: ev= 37.56; Mag= 202.00; Freq: 0.19; rand: 0.75; inc:   0; pts:: block:  46; total:    46
+12  CEV:: ev= 37.74; Mag= 203.00; Freq: 0.19; rand: 0.52; inc:   0; pts:: block:  46; total:    46
+13  CEV:: ev= 37.00; Mag= 199.00; Freq: 0.19; rand: 0.67; inc:   0; pts:: block:  46; total:    46
+Quit on trial 14

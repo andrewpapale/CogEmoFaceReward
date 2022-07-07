@@ -1,0 +1,17 @@
+saving to subjects/MEG_000000_20220707_tc.txt
+PTB-INFO: ==============================================================================================================================
+PTB-INFO: WINDOWS DWM DESKTOP COMPOSITOR IS ACTIVE. On this Windows-10 or later system, Psychtoolbox can no longer reliably detect if
+PTB-INFO: this will cause trouble for timing and integrity of visual stimuli or not. You might be just fine, or you could be in trouble.
+PTB-INFO: Use external measurement equipment and independent procedures to verify reliability of timing if you care about proper timing.
+PTB-INFO: ==============================================================================================================================
+NOT USING SOUND
+1  CEV:: ev= 37.00; Mag= 56.00; Freq: 0.66; rand: 0.53; inc:  56; pts:: block:  56; total:    56
+2  CEV:: ev= 36.35; Mag= 56.00; Freq: 0.65; rand: 0.14; inc:  56; pts:: block: 112; total:   112
+3  CEV:: ev= 38.49; Mag= 52.00; Freq: 0.75; rand: 0.67; inc:  52; pts:: block: 164; total:   164
+4  CEV:: ev= 38.28; Mag= 60.00; Freq: 0.64; rand: 0.31; inc:  60; pts:: block: 224; total:   224
+5  CEV:: ev= 38.34; Mag= 86.00; Freq: 0.45; rand: 0.30; inc:  86; pts:: block: 310; total:   310
+6  CEV:: ev= 35.85; Mag= 62.00; Freq: 0.58; rand: 0.27; inc:  62; pts:: block: 372; total:   372
+7  CEV:: ev= 39.17; Mag= 54.00; Freq: 0.72; rand: 0.32; inc:  54; pts:: block: 426; total:   426
+8  CEV:: ev= 36.44; Mag= 65.00; Freq: 0.56; rand: 0.68; inc:   0; pts:: block: 426; total:   426
+9  CEV:: ev= 33.55; Mag= 49.00; Freq: 0.69; rand: 0.15; inc:  49; pts:: block: 475; total:   475
+Quit on trial 10

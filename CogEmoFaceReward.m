@@ -246,8 +246,6 @@ function CogEmoFaceReward
      pahandle= PsychPortAudio('Open', [], [], [], [], nrchannels);
      PsychPortAudio('FillBuffer',pahandle,wavedata);
      
-     
-     
 
      %% Instructions 
 %         [ 'You will see a clock face.\n' ...
@@ -333,7 +331,7 @@ function CogEmoFaceReward
      %% THE BIG LOOP -- for all remaining trials or to the halfwaypt
      for i=start:length(experiment{facenumC})
         
-
+   
         %% debug, start time keeping
         % start of time debuging global var
         checktime=GetSecs();
